@@ -1,0 +1,7 @@
+#header {
+    --headerBorderColor: hsla(var(--black-hsl), 1);
+    --solidHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --solidHeaderNavigationColor: hsla(var(--black-hsl), 1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl), 1);
+}
