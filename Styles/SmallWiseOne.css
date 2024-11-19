@@ -1,0 +1,50 @@
+#header {
+    --headerBorderColor: hsla(var(--black-hsl), 1);
+    --solidHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --solidHeaderNavigationColor: hsla(var(--black-hsl), 1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl), 1);
+}
+
+:root {
+    --accent-hsl: 0, 70.11%, 82.94%;
+    --black-hsl: 0, 0%, 0%;
+    --darkAccent-hsl: 0, 0%, 36.08%;
+    --lightAccent-hsl: 0, 0%, 96.08%;
+    --safeDarkAccent-hsl: 0, 0%, 0%;
+    --safeInverseAccent-hsl: 0, 0%, 0%;
+    --safeInverseDarkAccent-hsl: 0, 0%, 100%;
+    --safeInverseLightAccent-hsl: 0, 0%, 0%;
+    --safeLightAccent-hsl: 0, 70.11%, 82.94%;
+    --white-hsl: 0, 0%, 100%;
+}
+
+[touch-action="none"] {
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+[touch-action="auto"] {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+[touch-action="pan-x"] {
+    -ms-touch-action: pan-x;
+    touch-action: pan-x;
+}
+
+[touch-action="pan-y"] {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+[touch-action="pan-x pan-y"],
+[touch-action="pan-y pan-x"] {
+    -ms-touch-action: pan-x pan-y;
+    touch-action: pan-x pan-y;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .header-blur-background {}
+}
